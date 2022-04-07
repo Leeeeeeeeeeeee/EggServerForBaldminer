@@ -1,0 +1,51 @@
+.title{
+    color: var(--color-black);
+}
+
+.info{
+    /* position: absolute; */
+    /* bottom: 20px;
+    right: 20px; */
+    color: var(--theme-accent);
+    font-size: var(--font-size-body);
+}
+
+#infoBox{
+    /* display: block; */
+    height: 100px;
+    line-height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: 1px solid var(--color-divider); */
+    font-size: var(--font-size-body);
+}
+#roomId{
+    display:inline-block;
+    width: calc(100% * 0.3);
+}
+
+#playerNum{
+    display:inline-block;
+    /* left:calc((100% - 200px) * 0.2 + 40px); */
+    width: calc(100% * 0.2);
+}
+
+#state{
+    display:inline-block;
+    /* left:calc(100% - 200px); */
+    width: calc(100% * 0.5);
+}
+
+#operationListContainer{
+    position: absolute;
+    width: calc(100% - 40px);
+    height: calc(100% - 160px);
+    top: 100px;
+    padding:20px;
+}
+
+table{
+    width: calc(100% - 40px);
+    position: absolute;
+    border-collapse: collapse;
+}

@@ -1,0 +1,29 @@
+#loginBox{
+    width: fit-content;
+    height: fit-content;
+	margin: auto;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    background: var(--color-grey);
+    /* border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: rgb(56, 97, 143); */
+}
+
+span {
+    width: 100px;
+    color: var(--theme-primary);
+    font-size: 1em;
+}
+
+button{
+    width: 100%;
+    margin: 0 auto;
+}
